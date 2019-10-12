@@ -5,4 +5,4 @@
 *&---------------------------------------------------------------------*
 REPORT ZW_STRING.
 
-write: / 'ABAPGit Test'.
+write: / 'ABAPGit Test.....'.
