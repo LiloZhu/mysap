@@ -1,4 +1,4 @@
-class ZCL_TEST_01 definition
+class ZCL_ZW_TEST_01 definition
   public
   final
   create public .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS ZCL_TEST_01 IMPLEMENTATION.
+CLASS ZCL_ZW_TEST_01 IMPLEMENTATION.
 
 
   method CONSTRUCTOR.
