@@ -5,7 +5,7 @@ class ZCL_TEST_01 definition
 
 public section.
 
-  interfaces IF_OO_ADT_CLASSRUN .
+  methods CONSTRUCTOR .
 protected section.
 private section.
 ENDCLASS.
@@ -15,7 +15,7 @@ ENDCLASS.
 CLASS ZCL_TEST_01 IMPLEMENTATION.
 
 
-  method IF_OO_ADT_CLASSRUN~MAIN.
-    out->write('Hello world!').
+  method CONSTRUCTOR.
+    write: /'hello, world !'.
   endmethod.
 ENDCLASS.
